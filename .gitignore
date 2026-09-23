@@ -1,0 +1,12 @@
+views/uploads/*
+!views/uploads/.gitkeep
+.DS_Store
+Thumbs.db
+*.log
+
+.vscode/
+.idea/
+desktop.ini
+*.swp
+config.local.php
+
