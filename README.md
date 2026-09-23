@@ -72,9 +72,15 @@ Follow these steps to run DriveHub locally on your machine:
 
 1. **Install XAMPP**: Download and install [XAMPP](https://www.apachefriends.org/index.html).
 2. **Start Services**: Open the XAMPP Control Panel and start both **Apache** and **MySQL**.
-3. **Clone/Copy Project**: 
-   - Place the entire `Drive_Hub` project folder inside the `htdocs` directory.
-   - Path should be: `C:\xampp\htdocs\Drive_Hub`
+3. **Clone the Repository**: 
+   - Open your terminal or command prompt and navigate to your XAMPP `htdocs` directory:
+     ```bash
+     cd C:\xampp\htdocs
+     ```
+   - Clone the repository into a folder named `Drive_Hub`:
+     ```bash
+     git clone https://github.com/Raunak-1607/Drive_Hub-Car-Showroom-Management-System.git Drive_Hub
+     ```
 4. **Database Setup**:
    - Open your browser and go to `http://localhost/phpmyadmin`
    - Click on the **Import** tab at the top (ensure no specific database is selected on the left sidebar).
@@ -83,7 +89,7 @@ Follow these steps to run DriveHub locally on your machine:
 5. **Configuration**:
    - Database connection settings can be modified in `models/dbConnect.php` if you have a custom MySQL password.
 6. **Launch Application**:
-   - Open your browser and navigate to: `http://localhost/Drive_Hub`
+   - Open your browser and navigate to: `http://localhost/Drive_Hub-Car-Showroom-Management-System`
 
 ---
 
